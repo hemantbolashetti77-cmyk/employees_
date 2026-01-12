@@ -7,4 +7,4 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "emp.py", "101", "basavaraj", "28"]
+CMD ["python", "emp.py", "101", "prajawal", "28"]
