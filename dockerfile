@@ -1,8 +1,8 @@
 
 FROM python:3.12-slim
 
-WORKDIR /employee
+WORKDIR /emp
 
 COPY . .
 
-CMD [ "python" , "employee.py"]
+CMD [ "python" , "emp.py"]
